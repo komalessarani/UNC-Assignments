@@ -1,0 +1,10 @@
+Avatarify is a repository on GitHub that acts like a filter on snapchat, but instead it is for zoom calls. Once you open the app,
+a window will pop-up with your video (you need to use your webcam) and then from there you can personalize whatever avatar you would
+like to be whether it's Elon Musk, Mona Lisa, an old picture of you, whatever you would like! It's really cool that when you talk, 
+the avatar's mouth also moves with it and when you move, the avatar moves! It's a really cool and amusing project that lightens up
+zoom calls!
+
+You can find it on github at https://github.com/alievk/avatarify
+You can find the youtube demo at https://youtu.be/Q7LFDT-FRzs
+
+
