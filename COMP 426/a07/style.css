@@ -1,0 +1,104 @@
+.container{
+    background-color: #BBADA0;
+}
+
+
+body {
+    margin: 40px;
+  }
+
+  #root{
+      display: block;
+  }
+
+  #root h1{
+      font-weight: bolder;
+      font-size: 400%;
+      text-align: left;
+      color: #776E65;
+      float: left;
+  }
+
+  #root p{
+      font-weight: 500;
+      text-align: center;
+  }
+
+  .header{
+      overflow: hidden;
+      width: 370px;
+  }
+
+  #root{
+      text-align: center;
+  }
+
+  #reset{
+    margin-left: 70%;
+    background-color: #8F7A66;
+    color: #F9F6F2;
+}
+
+  .wrapper{
+      display: inline-block;
+  }
+
+  #score{
+      background-color: #BBADA0;
+      color: #FFFFFF;
+      width: 60px;
+      border-radius: 3px;
+      font-weight: bolder;
+      margin-left: 70%
+  }
+
+  .how{
+      width: 370px;
+      text-align: center;
+      margin-left: 500px;
+      color: #776E65
+  }
+
+  #score p{
+      font-size: 70%;
+      color: #EEE4DA;
+  }
+  
+  #grid {
+    display: grid;
+    width:370px;
+    height: 370px;
+    align-content: center;
+    justify-content: center;    
+    grid-template-columns: 80px 80px 80px 80px;
+    grid-gap: 10px;
+    background-color: #BBADA0;
+    color: rgb(100, 54, 54);
+    border-radius: 5px;
+  }
+  
+  #box0, #box1, #box2, #box3, #box4,#box5,#box6,#box7,#box8,#box9,#box10,#box11,#box12,#box13,#box14,#box15 {
+    background-color: #EEE4DA;
+    color: #776E65;
+    text-align: center;
+    font-weight: bolder;
+    border-radius: 3px;
+    width: 80px;
+    height: 80px;
+    padding: 10px;
+    font-size: 250%;
+  }
+
+  #lost{
+    display: block;
+    width:500px;
+    height: 500px;
+    background-color: red;
+    text-align: center;
+    font-weight: bolder;
+    font-size: 300%;
+}
+
+h1.won{
+    color: green;
+}

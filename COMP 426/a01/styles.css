@@ -1,0 +1,83 @@
+h1{
+ font-family: monospace;
+}
+ul.header {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    width: 100%;
+}
+  
+  li.legends, li.about, li.literary, li.home {
+    float: left;
+  }
+  
+  .legends, .about, .literary{
+      text-decoration: underline
+  }
+  
+  li a {
+    display: block;
+    color:#000000;
+    text-align: center;
+    padding: 14px 20px;
+    text-decoration: none;
+    font-family: monospace;
+    font-size: 150%
+  }
+
+  li.home{
+      font-weight: bolder;
+      width: 10%;
+      font-size: 110%;
+    }
+
+  li.home a:hover{
+      background-color: #ffffff;
+  }
+
+  img{
+      width: 15%;
+      height: 15%;
+  }
+  
+  /* Change the link color to #111 (black) on hover */
+  li a:hover {
+    background-color:#ffffff;
+  }
+
+  body{
+      background-color: #faebd7
+  }
+  
+  img.index-fairy1{
+      display: inline;
+      margin-left: 10%;
+  }
+
+  h2{
+    font-family: monospace;
+    font-size: 200%
+  }
+
+  p{
+    font-size: 112%;
+    font-family: 'Trebuchet MS';
+    border-right: 1px solid black;
+  }
+
+  .column-desc{
+      column-count: 3;
+  }
+
+  #about-fairy{
+      display: block;
+      float: left;
+  }
+
+  ul.characteristics{
+      display: block;
+      font-family: 'Trebuchet MS';
+      font-size: 18px;
+  }

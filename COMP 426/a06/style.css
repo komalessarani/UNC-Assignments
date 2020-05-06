@@ -1,0 +1,91 @@
+/**
+ * Maze styles
+ */
+#root {
+  margin: 2em 0;
+  text-align: center;
+}
+
+.maze {
+  display: inline-block;
+  position: relative;
+  border: 16px solid #4B9CD3;
+}
+
+.maze > table {
+  margin: 0 auto;
+  border-collapse: collapse;
+}
+
+.maze td {
+  box-sizing: border-box;
+  border: 2px solid white;
+}
+
+.maze td.wall {
+  background-color: #13294B;
+}
+
+.maze td.start {
+  background-color: #c5fdff;
+}
+
+.maze td.end {
+  background-color: #c2ffaf;
+}
+
+.token {
+  position: absolute;
+  border-radius: 50%;
+  background-color: red;
+  color: white;
+  text-align: center;
+  font-family: sans-serif;
+  vertical-align: middle;
+  font-size: 2.5em;
+}
+
+
+/**
+ * Page styles
+ */
+body {
+  background-color: #13294B;
+  margin: 0;
+}
+
+body > main {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 1em 2em;
+  font-family: sans-serif;
+  background-color: #f8f8f8;
+  min-height: 100vh;
+  box-sizing: border-box;
+  border: 5px solid #13294B;
+  border-radius: 10px;
+}
+
+body a {
+  color: #4B9CD3;
+  text-decoration: none;
+}
+
+body a:hover {
+  color: #13294B;
+}
+
+ol.assignment-links {
+  margin-top: 2em;
+}
+
+li.assignment-link {
+  margin-top: 1em;
+  margin-bottom: 1em;
+  font-size: 1.2em;
+}
+
+.back-button {
+  float: right;
+  font-size: 1.1em;
+}
