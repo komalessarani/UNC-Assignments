@@ -1,0 +1,22 @@
+#include <stdio.h>
+
+int main()
+{
+  int width = 0;
+  int height = 0;
+
+  do{
+      printf("Please enter width and height:\n");
+      scanf("%d", &width);
+      if(width == 0){
+        printf("End\n");
+ 	break;
+      }
+      scanf("%d", &height);
+     
+      for(int i=0; i < width; i++){
+	
+      }
+  }while(width!=0);
+}
+
