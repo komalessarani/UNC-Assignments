@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en" style = "background-color: #253341">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <title>Twitter</title>
+
+        <!-- Include links to CSS stylesheets below -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.5/css/bulma.min.css" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="stylesheet" href="index.css" />
+    </head>
+
+    <body>
+        <div id ="root">
+            <div id = "twitter-icon" style="background-color: #15202B; margin-bottom: 2px; position: -webkit-sticky; position: sticky; top: 0;">
+                    <i class="fa fa-twitter" style="font-size:60px;color:#1DA0F0; margin-left: 50%;""></i>
+                    <div id ="addbut">
+                        <button class ="button is-primary" id="add" style="background-color: #1DA0F0; color: white; margin-left: 95%; width: 40px; margin-top: 10px;">        
+                            <span class="icon">
+                            <i class="fa fa-plus"></i>
+                          </span></button>
+                    </div>
+            </div>
+            <textarea id ="show"style ="width: 100%; display: none;" placeholder="Type new tweet here."></textarea>
+            <button class ="button is-primary"id ="send" style="display: none; width: 100%; background-color: #1DA0F0; color: white;">Submit</button>
+            <div class ="notes" style="color: white; text-align: center;">
+                <ul>
+                    <li style="font-weight: bolder;">*INSTRUCTIONS*</li>
+                    <li>1) To create a new Tweet, press the plus button above!</li>
+                    <li>2) To like, retweet, or reply, make sure to click the icons themselves and not the numbers and you will be prompted to enter a reply/retweet. As for likes, the heart will turn red if you liked it!</li>
+                </ul>
+            </div>
+        </div>
+        <!-- Include links to JavaScript files below -->
+        <!-- <script src="https://code.jquery.com/jquery-3.4.1.min.js" type = "module"></script> -->
+        <script src= "node_modules/jquery/dist/jquery.js"></script>
+        <script src="./node_modules/axios/dist/axios.js"></script>
+        <script type = "module" src="hscript.js"></script>
+    </body>
+</html>

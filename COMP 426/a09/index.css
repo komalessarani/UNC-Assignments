@@ -1,0 +1,26 @@
+hr{
+    background-color: #253341;
+}
+
+.card{
+    margin-bottom: 1.5px;
+    overflow-x: auto;
+}
+
+.media-content::-webkit-scrollbar {
+    display: none;
+  }
+
+  .button.is-primary{
+      color: rgb(114, 113, 108)
+  }
+
+#home{
+    position: relative;
+}
+
+#add{
+    position: absolute;
+    top: 0;
+    right: 0;
+}
