@@ -1,0 +1,55 @@
+Please enter 25 strings, one per line:
+
+Here are the strings in the order you entered:
+Department Administration
+
+Sitterson Hall (SN) 
+Brooks Computer Science Building (FB)
+Campus Box 3175 
+Phone: 919-962-1700 / Fax: 919-962-1799
+
+Chairman
+Anselmo Lastra
+Office: FB 116/FB 212
+Phone: 919-962-1958
+Email: lastra@cs.unc.edu
+
+Associate Chairman for Academic Affairs
+Kevin Jeffay
+Office: FB 316
+Phone: 919-962-1938
+Email: jeffay@cs.unc.edu
+
+Associate Chairman for Administration, Finance and Entrepreneurship
+Timothy L. Quigg
+Office: SN 104
+Phone: 919-962-1777
+Email: quigg@cs.unc.edu
+
+
+In alphabetical order, the strings are:
+
+
+
+
+
+Anselmo Lastra
+Associate Chairman for Academic Affairs
+Associate Chairman for Administration, Finance and Entrepreneurship
+Brooks Computer Science Building (FB)
+Campus Box 3175 
+Chairman
+Department Administration
+Email: jeffay@cs.unc.edu
+Email: lastra@cs.unc.edu
+Email: quigg@cs.unc.edu
+Kevin Jeffay
+Office: FB 116/FB 212
+Office: FB 316
+Office: SN 104
+Phone: 919-962-1700 / Fax: 919-962-1799
+Phone: 919-962-1777
+Phone: 919-962-1938
+Phone: 919-962-1958
+Sitterson Hall (SN) 
+Timothy L. Quigg
