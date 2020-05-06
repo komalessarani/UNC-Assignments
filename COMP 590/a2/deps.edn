@@ -1,0 +1,9 @@
+{:deps {}
+ :paths ["src" "classes" "spec"]
+ :aliases
+ {:test {:extra-deps {speclj
+                      {:git/url "https://github.com/kyptin/speclj"
+                       :sha "a843b64cc5a015b8484627eff6e84bbac2712692"}}
+         :main-opts ["-m" "speclj.cli"]}}
+
+ }
