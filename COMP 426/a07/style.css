@@ -49,14 +49,16 @@ body {
       width: 60px;
       border-radius: 3px;
       font-weight: bolder;
-      margin-left: 70%
+      margin-left: 285px;
+      margin-top: 10px;
   }
 
   .how{
       width: 370px;
       text-align: center;
-      margin-left: 500px;
-      color: #776E65
+      margin-left: 578px;
+      color: #776E65;
+      bottom: 0
   }
 
   #score p{
