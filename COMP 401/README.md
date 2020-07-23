@@ -1,3 +1,4 @@
+# COMP 401 Assignments 
 <b>Assignment 1</b>:
 Java Warm-up using the Scanner object <br/>
 <b>Assignment 2</b>:
